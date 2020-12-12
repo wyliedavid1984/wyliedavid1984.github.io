@@ -1,0 +1,38 @@
+/* some global styling */
+header {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+nav {
+    background-color: rgb(197, 240, 197);
+    margin-bottom: 100px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("../images/more-leaves.png");
+}
+
+/* Mostly just background color or images and picture sizing */
+.name {
+    padding: 15px;
+    background-color: rgb(241, 241, 215);   
+}
+
+.contBackground{
+    background-image: url("../images/creampaper.png");
+}
+
+.green{
+    z-index: 2;
+    background-color: rgb(197, 240, 197);
+}
+
+.refactoredpic {
+    height: 75%;
+    width: 75%;
+}
+
