@@ -2,13 +2,13 @@
 header {
     margin-top: 10px;
     margin-bottom: 100px;
- 
+
 }
 
 nav {
     background-color: rgb(197, 240, 197);
     margin-bottom: 100px;
-   font-family: 'Permanent Marker',
+    font-family: 'Permanent Marker',
         cursive;
 }
 
@@ -24,9 +24,14 @@ main {
     font-family: 'Caveat',
         cursive;
 }
-img{
+
+img {
     width: 250px;
     height: 250px;
+}
+
+a {
+    color: rgb(14, 14, 221);
 }
 
 /* Mostly just background color or images and picture sizing */
@@ -35,12 +40,13 @@ img{
     background-color: rgb(241, 241, 215);
 }
 
-.container{
+.container {
     background-gradient
 }
 
 .contBackground {
-    background-image: url("../images/creampaper.png");
+    background-image: linear-gradient(to bottom right, rgb(250,250,250),  rgb(118, 226, 118));
+
 }
 
 .green {
@@ -48,7 +54,6 @@ img{
     background-color: rgb(197, 240, 197);
 }
 
-.refactoredpic {
-    height: 75%;
-    width: 75%;
+.bgcolor {
+    background-image: url("../images/creampaper.png");
 }
