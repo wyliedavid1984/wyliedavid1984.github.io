@@ -9,14 +9,14 @@ nav {
     background-color: rgb(197, 240, 197);
     margin-bottom: 100px;
     font-family: 'Permanent Marker',
-        cursive;
+        cursive;    
 }
 
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url("../images/more-leaves.png")
+    background-image: url("../images//backgrounds/background.jfif")
 }
 
 main {
@@ -55,5 +55,7 @@ a {
 }
 
 .bgcolor {
-    background-image: url("../images/creampaper.png");
+    background-image: url("../images//backgrounds/creampaper.png");
 }
+.name{
+background-image: url("../images//backgrounds/more-leaves.png")}
